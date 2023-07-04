@@ -6,6 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 Sentry.init({
+  release: "portfolio@0.1.0",
   dsn: "https://0f5efe10e64c46088d2cf1b7b201f81c@o1155879.ingest.sentry.io/4505469738287104",
   integrations: [
     new Sentry.BrowserTracing({
