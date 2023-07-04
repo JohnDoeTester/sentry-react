@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import * as Sentry from "@sentry/react";
+import * as Sentry from "@sentry/browser";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 Sentry.init({
-  release: "sentry-react@0.1.0",
+  release: "portfolio@0.1.0",
   autoSessionTracking: false,
   dsn: "https://b145f29b9123418885aab91604d2a7e3@o1155879.ingest.sentry.io/4505469984047104",
   integrations: [
