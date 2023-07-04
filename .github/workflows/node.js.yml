@@ -34,6 +34,8 @@ jobs:
         SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
       with:
         sourcemaps: './build'
+        environment: 'production'
+        version: '0.1.0'
     
     - name: rsync deployment
       uses: D3rHase/rsync-deploy-action@v0.2
