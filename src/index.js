@@ -8,7 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 Sentry.init({
   release: "sentry-react@0.1.0",
   autoSessionTracking: false,
-  dsn: "https://cef062bacda44f14913c81dec9ae0445@o1155879.ingest.sentry.io/4505469919494144",
+  dsn: "https://6f38bd69db11425781cce6b66b402ae7@o1155879.ingest.sentry.io/4505469945315330",
   integrations: [
     new Sentry.BrowserTracing({
       // Set `tracePropagationTargets` to control for which URLs distributed tracing should be enabled
