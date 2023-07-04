@@ -45,4 +45,4 @@ jobs:
           USER: ${{ secrets.USER }}
           PRIVATE_SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REPOSITORY_PATH: build/*
-          SERVER_PATH: /home/ubuntu
+          SERVER_PATH: /var/www/html
